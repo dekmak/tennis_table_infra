@@ -1,0 +1,8 @@
+*.swp
+.vagrant
+.DS_Store
+.terraform
+.idea
+*.tfstate*
+!/**/bootstrap/*.tfstate*
+terraform.exe

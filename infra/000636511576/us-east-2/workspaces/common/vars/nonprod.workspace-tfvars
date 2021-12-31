@@ -1,0 +1,8 @@
+#--------------------------------------------------------------
+# Global Variables
+#--------------------------------------------------------------
+global_region = "us-east-2"
+project = "tennis-app"
+environment = "nonprod"
+resource_prefix = "nonprod-tennisapp"
+allowed_account_ids = ["000636511576"]
