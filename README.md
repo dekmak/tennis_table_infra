@@ -1,8 +1,12 @@
 
 # Tennis Table Scoring Application > Infrastructure
 
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 This project is using Terraform to automate the creation of common infrastructure on AWS for the Tennis Table Scoring application.
-It generates the following resources:
+
+This project generates the following resources:
 - S3 bucket for Terraform State files
 - VPC and its related subnets, security group and NAT
 - Aurora database (Postgresql) with secret password saved on Secret Manager
@@ -20,4 +24,9 @@ In order to execute the terraform scripts, ensure you have Terraform installed i
 - call: terraform apply -var-file vars/nonprod.workspace-tfvars
 
 
-Note: AWS_ACCOUNT_ID should be set to your AWS account id (i.e: 000636511576). AWS_REGION should be set to your AWS region (i.e: us-east-2)
+## Notes
+- AWS_ACCOUNT_ID should be set to your AWS account id (i.e: 000636511576).
+- AWS_REGION should be set to your AWS region (i.e: us-east-2)
+
+## Authors
+- [@dekmak](https://www.github.com/dekmak)
